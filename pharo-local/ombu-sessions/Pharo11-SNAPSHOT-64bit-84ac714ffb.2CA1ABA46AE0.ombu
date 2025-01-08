@@ -1,0 +1,1109 @@
+OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-01-08T13:39:20.125691+00:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-84ac714ffb.31FFED1BF188', '8756' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpCategoryRegistration {
+		#classCategoryName : #MyCounter,
+		#affectedPackageName : #MyCounter
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-01-08T13:40:22.21778+00:00' ],
+		#prior : OmReference [ '1' ],
+		#self : OmReference [ '2' ]
+	},
+	#content : EpCategoryAddition {
+		#classCategoryName : #MyCounter,
+		#affectedPackageName : #MyCounter
+	}
+}OmEntry {
+	#tags : {
+		#author : 'Unknown',
+		#time : DateAndTime [ '2025-01-08T13:40:22.219218+00:00' ],
+		#prior : OmReference [ '2' ],
+		#self : OmReference [ '3' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Counter\r\tinstanceVariableNames: \'count\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Counter,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Counter,
+						#isMetaSide : false
+					},
+					#name : #count,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Counter class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Counter class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Counter,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:41:58.027996+00:00' ],
+		#prior : OmReference [ '3' ],
+		#self : OmReference [ '4' ]
+	},
+	#content : EpBehaviorCommentChange {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Counter\r\tinstanceVariableNames: \'count\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Counter,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Counter,
+						#isMetaSide : false
+					},
+					#name : #count,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Counter class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Counter class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Counter,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : '\'Counter\' is a simple concrete class which supports incrementing and decrementing.\rIts API is\r- `decrement` and `increment`\r- `count`\rIts creation message is `startAt:`\r\r',
+				#stamp : 'TomSpencer 1/8/2025 13:41'
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#oldComment : '',
+		#newComment : '\'Counter\' is a simple concrete class which supports incrementing and decrementing.\rIts API is\r- `decrement` and `increment`\r- `count`\rIts creation message is `startAt:`\r\r',
+		#oldStamp : '',
+		#newStamp : 'TomSpencer 1/8/2025 13:41'
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:47:34.105052+00:00' ],
+		#prior : OmReference [ '4' ],
+		#self : OmReference [ '5' ]
+	},
+	#content : EpProtocolAddition {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Counter\r\tinstanceVariableNames: \'count\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Counter,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Counter,
+						#isMetaSide : false
+					},
+					#name : #count,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Counter class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Counter class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Counter,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : '\'Counter\' is a simple concrete class which supports incrementing and decrementing.\rIts API is\r- `decrement` and `increment`\r- `count`\rIts creation message is `startAt:`\r\r',
+				#stamp : 'TomSpencer 1/8/2025 13:41'
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:49:41.475145+00:00' ],
+		#prior : OmReference [ '5' ],
+		#self : OmReference [ '6' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count\r\t^count\r\t',
+			#stamp : 'TomSpencer 1/8/2025 13:49',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:49:41.481466+00:00' ],
+		#prior : OmReference [ '6' ],
+		#self : OmReference [ '7' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count\r\t^count\r\t',
+			#stamp : 'TomSpencer 1/8/2025 13:49',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #accessing,
+			#sourceCode : 'count\r\t^count\r\t',
+			#stamp : 'TomSpencer 1/8/2025 13:49',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:50:26.750494+00:00' ],
+		#prior : OmReference [ '7' ],
+		#self : OmReference [ '8' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #accessing,
+			#sourceCode : 'count\r\t^count\r\t',
+			#stamp : 'TomSpencer 1/8/2025 13:49',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count\r\t^count\r\t',
+			#stamp : 'TomSpencer 1/8/2025 13:49',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:50:26.753258+00:00' ],
+		#prior : OmReference [ '8' ],
+		#self : OmReference [ '9' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #accessing,
+			#sourceCode : 'count\r\t^count\r\t',
+			#stamp : 'TomSpencer 1/8/2025 13:49',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:50:26.75612+00:00' ],
+		#prior : OmReference [ '9' ],
+		#self : OmReference [ '10' ]
+	},
+	#content : EpProtocolRemoval {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #Counter\r\tinstanceVariableNames: \'count\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #Counter,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #Counter,
+						#isMetaSide : false
+					},
+					#name : #count,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'Counter class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'Counter class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #Counter,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : '\'Counter\' is a simple concrete class which supports incrementing and decrementing.\rIts API is\r- `decrement` and `increment`\r- `count`\rIts creation message is `startAt:`\r\r',
+				#stamp : 'TomSpencer 1/8/2025 13:41'
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #accessing
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:50:49.621694+00:00' ],
+		#prior : OmReference [ '10' ],
+		#self : OmReference [ '11' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count\r\t^count',
+			#stamp : 'TomSpencer 1/8/2025 13:50',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:50:49.64401+00:00' ],
+		#prior : OmReference [ '11' ],
+		#self : OmReference [ '12' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count\r\t^count',
+			#stamp : 'TomSpencer 1/8/2025 13:50',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #count,
+			#protocol : #accessing,
+			#sourceCode : 'count\r\t^count',
+			#stamp : 'TomSpencer 1/8/2025 13:50',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:53:39.887349+00:00' ],
+		#prior : OmReference [ '12' ],
+		#self : OmReference [ '13' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'TestCase subclass: #CounterTest\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'TestCase',
+				#traitCompositionSource : '{}'
+			},
+			#name : #CounterTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'CounterTest class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'CounterTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #CounterTest,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:54:47.73174+00:00' ],
+		#prior : OmReference [ '13' ],
+		#self : OmReference [ '14' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead\r\t| c |\r\tc := Counter new.\r\tc count: 7\r\tself assert: c count equals: 7',
+			#stamp : 'TomSpencer 1/8/2025 13:54',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:54:47.740961+00:00' ],
+		#prior : OmReference [ '14' ],
+		#self : OmReference [ '15' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead\r\t| c |\r\tc := Counter new.\r\tc count: 7\r\tself assert: c count equals: 7',
+			#stamp : 'TomSpencer 1/8/2025 13:54',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead\r\t| c |\r\tc := Counter new.\r\tc count: 7\r\tself assert: c count equals: 7',
+			#stamp : 'TomSpencer 1/8/2025 13:54',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:58:16.502146+00:00' ],
+		#prior : OmReference [ '15' ],
+		#self : OmReference [ '16' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count:\r\tamount',
+			#stamp : 'TomSpencer 1/8/2025 13:58',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:58:16.511177+00:00' ],
+		#prior : OmReference [ '16' ],
+		#self : OmReference [ '17' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count:\r\tamount',
+			#stamp : 'TomSpencer 1/8/2025 13:58',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #accessing,
+			#sourceCode : 'count:\r\tamount',
+			#stamp : 'TomSpencer 1/8/2025 13:58',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T13:58:33.784304+00:00' ],
+		#prior : OmReference [ '17' ],
+		#self : OmReference [ '18' ]
+	},
+	#content : EpClassAddition {
+		#class : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: #MyClass\r\tinstanceVariableNames: \'count\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #MyClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #MyClass,
+						#isMetaSide : false
+					},
+					#name : #count,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'MyClass class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'MyClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #MyClass,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:02:12.28937+00:00' ],
+		#prior : OmReference [ '18' ],
+		#self : OmReference [ '19' ]
+	},
+	#content : EpCompositeRefactoring {
+		#childrenRefactorings : [ ]
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#prior : OmReference [ '19' ],
+		#self : OmReference [ '20' ],
+		#time : DateAndTime [ '2025-01-08T14:02:12.324792+00:00' ],
+		#trigger : @3
+	},
+	#content : EpClassRemoval {
+		#classRemoved : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'Object subclass: \'MyClass\'\r\tinstanceVariableNames: \'count\'\r\tclassVariableNames: \'\'\r\tpackage: #MyCounter',
+				#superclassName : 'Object',
+				#traitCompositionSource : '{}'
+			},
+			#name : #MyClass,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [
+				RGInstanceVariableDefinition {
+					#annotations : IdentityDictionary {
+						#className : #AnObsoleteMyClass,
+						#isMetaSide : false
+					},
+					#name : #count,
+					#parent : @7
+				}
+			],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'MyClass class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'AnObsoleteMyClass class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #AnObsoleteMyClass,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:02:34.742761+00:00' ],
+		#prior : OmReference [ '20' ],
+		#self : OmReference [ '21' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #accessing,
+			#sourceCode : 'count:\r\tamount',
+			#stamp : 'TomSpencer 1/8/2025 13:58',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count:\r\tamount',
+			#stamp : 'TomSpencer 1/8/2025 13:58',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:02:34.761061+00:00' ],
+		#prior : OmReference [ '21' ],
+		#self : OmReference [ '22' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #accessing,
+			#sourceCode : 'count:\r\tamount',
+			#stamp : 'TomSpencer 1/8/2025 13:58',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:06:19.504782+00:00' ],
+		#prior : OmReference [ '22' ],
+		#self : OmReference [ '23' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count: aNumber\r    count := aNumber.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:06',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:06:19.513796+00:00' ],
+		#prior : OmReference [ '23' ],
+		#self : OmReference [ '24' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'count: aNumber\r    count := aNumber.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:06',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #Counter,
+				#isMetaSide : false
+			},
+			#name : #'count:',
+			#protocol : #accessing,
+			#sourceCode : 'count: aNumber\r    count := aNumber.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:06',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:10:07.541342+00:00' ],
+		#prior : OmReference [ '24' ],
+		#self : OmReference [ '25' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead\r\t| c |\r\tc := Counter new.\r\tc count: 7\r\tself assert: c count equals: 7',
+			#stamp : 'TomSpencer 1/8/2025 13:54',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead\r    | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:10',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:14:22.31939+00:00' ],
+		#prior : OmReference [ '25' ],
+		#self : OmReference [ '26' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead\r    | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:12',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:14',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:18.985497+00:00' ],
+		#prior : OmReference [ '26' ],
+		#self : OmReference [ '27' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:14',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:14',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:18.999788+00:00' ],
+		#prior : OmReference [ '27' ],
+		#self : OmReference [ '28' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.\r',
+			#stamp : 'TomSpencer 1/8/2025 14:14',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:19.002338+00:00' ],
+		#prior : OmReference [ '28' ],
+		#self : OmReference [ '29' ]
+	},
+	#content : EpProtocolRemoval {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'TestCase subclass: #CounterTest\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'TestCase',
+				#traitCompositionSource : '{}'
+			},
+			#name : #CounterTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'CounterTest class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'CounterTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #CounterTest,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #tests
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:26.329295+00:00' ],
+		#prior : OmReference [ '29' ],
+		#self : OmReference [ '30' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:26.334154+00:00' ],
+		#prior : OmReference [ '30' ],
+		#self : OmReference [ '31' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:49.89665+00:00' ],
+		#prior : OmReference [ '31' ],
+		#self : OmReference [ '32' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:49.914408+00:00' ],
+		#prior : OmReference [ '32' ],
+		#self : OmReference [ '33' ]
+	},
+	#content : EpMethodRemoval {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:49.917729+00:00' ],
+		#prior : OmReference [ '33' ],
+		#self : OmReference [ '34' ]
+	},
+	#content : EpProtocolRemoval {
+		#behavior : RGClassDefinition {
+			#annotations : IdentityDictionary {
+				#definitionSource : 'TestCase subclass: #CounterTest\r\tinstanceVariableNames: \'\'\r\tclassVariableNames: \'\'\r\tpackage: \'MyCounter\'',
+				#superclassName : 'TestCase',
+				#traitCompositionSource : '{}'
+			},
+			#name : #CounterTest,
+			#methods : IdentityDictionary { },
+			#protocols : Set [ ],
+			#instanceVariables : OrderedCollection [ ],
+			#metaClass : RGMetaclassDefinition {
+				#annotations : IdentityDictionary {
+					#definitionSource : 'CounterTest class\r\tinstanceVariableNames: \'\'',
+					#traitCompositionSource : '{}'
+				},
+				#name : #'CounterTest class',
+				#methods : IdentityDictionary { },
+				#protocols : Set [ ],
+				#instanceVariables : OrderedCollection [ ],
+				#baseClass : @7
+			},
+			#comment : RGCommentDefinition {
+				#annotations : IdentityDictionary {
+					#className : #CounterTest,
+					#isMetaSide : false
+				},
+				#parent : @7,
+				#content : ''
+			},
+			#classVariables : OrderedCollection [ ],
+			#category : #MyCounter,
+			#package : #MyCounter,
+			#sharedPools : OrderedCollection [ ]
+		},
+		#protocol : #tests
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:55.400232+00:00' ],
+		#prior : OmReference [ '34' ],
+		#self : OmReference [ '35' ]
+	},
+	#content : EpMethodAddition {
+		#method : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		}
+	}
+}OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:15:55.4042+00:00' ],
+		#prior : OmReference [ '35' ],
+		#self : OmReference [ '36' ]
+	},
+	#content : EpMethodModification {
+		#oldMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #'as yet unclassified',
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		},
+		#newMethod : RGMethodDefinition {
+			#annotations : IdentityDictionary {
+				#className : #CounterTest,
+				#isMetaSide : false
+			},
+			#name : #testCountIsSetAndRead,
+			#protocol : #tests,
+			#sourceCode : 'testCountIsSetAndRead | c |\r    c := Counter new.\r    c count: 7.\r    self assert: c count equals: 7.',
+			#stamp : 'TomSpencer 1/8/2025 14:15',
+			#package : #MyCounter
+		}
+	}
+}

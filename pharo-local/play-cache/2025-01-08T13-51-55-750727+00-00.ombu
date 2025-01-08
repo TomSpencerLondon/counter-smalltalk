@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-01-08T13:52:08.284807+00:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : 'Counter new count'
+}

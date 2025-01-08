@@ -1,0 +1,11 @@
+OmEntry {
+	#tags : {
+		#author : 'TomSpencer',
+		#time : DateAndTime [ '2025-01-08T14:21:21.210988+00:00' ],
+		#prior : OmReference [ 'Pharo11-SNAPSHOT-64bit-84ac714ffb.2CA1ABA46AE0', '36' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : EpSessionSnapshot {
+		#imageName : '/Users/tspencer/Documents/Pharo/images/Counter/Counter.image'
+	}
+}
