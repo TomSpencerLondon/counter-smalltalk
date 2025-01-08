@@ -81,8 +81,8 @@ For additional learning resources and examples of Smalltalk programming, check o
 
 This repository provides an excellent guide to object-oriented programming with Smalltalk using Pharo.
 
-Conclusion
-
+### Conclusion
+This is what the code looks like:
 ```
 Object subclass: #Counter
 	instanceVariableNames: 'count'
