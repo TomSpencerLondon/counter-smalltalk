@@ -83,7 +83,7 @@ This repository provides an excellent guide to object-oriented programming with 
 
 ### Conclusion
 This is what the code looks like:
-```
+```smalltalk
 Object subclass: #Counter
 	instanceVariableNames: 'count'
 	classVariableNames: ''
