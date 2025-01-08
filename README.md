@@ -82,4 +82,43 @@ For additional learning resources and examples of Smalltalk programming, check o
 This repository provides an excellent guide to object-oriented programming with Smalltalk using Pharo.
 
 Conclusion
+
+```
+Object subclass: #Counter
+	instanceVariableNames: 'count'
+	classVariableNames: ''
+	package: 'MyCounter'!
+!Counter commentStamp: 'TomSpencer 1/8/2025 13:41' prior: 0!
+'Counter' is a simple concrete class which supports incrementing and decrementing.
+Its API is
+- `decrement` and `increment`
+- `count`
+Its creation message is `startAt:`
+
+!
+
+
+!Counter methodsFor: 'accessing' stamp: 'TomSpencer 1/8/2025 14:06'!
+count: aNumber
+    count := aNumber.
+! !
+
+!Counter methodsFor: 'accessing' stamp: 'TomSpencer 1/8/2025 13:50'!
+count
+	^count! !
+
+
+TestCase subclass: #CounterTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	package: 'MyCounter'!
+
+!CounterTest methodsFor: 'tests' stamp: 'TomSpencer 1/8/2025 14:15'!
+testCountIsSetAndRead | c |
+    c := Counter new.
+    c count: 7.
+    self assert: c count equals: 7.! !
+
+```
+
 This example provides a foundational understanding of creating a simple class in Smalltalk and writing corresponding test cases to ensure its functionality. By exploring these examples, you can deepen your understanding of Smalltalk's object-oriented principles.
