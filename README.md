@@ -74,8 +74,12 @@ To execute the tests, use the built-in test runner in your Smalltalk environment
 
 If the test passes without errors, the `Counter` class is functioning as intended.
 
-## Conclusion
+Learning Resources
+For additional learning resources and examples of Smalltalk programming, check out the following repository:
 
-This example provides a foundational understanding of creating a simple class in Smalltalk and writing corresponding test cases to ensure its functionality.
+[Learning OOP with Pharo](https://github.com/SquareBracketAssociates/LearningOOPWithPharo/tree/master)
 
-For more information on Smalltalk and its testing framework, refer to the [GNU Smalltalk User’s Guide: SUnit](https://www.gnu.org/software/smalltalk/manual/html_node/SUnit.html). 
+This repository provides an excellent guide to object-oriented programming with Smalltalk using Pharo.
+
+Conclusion
+This example provides a foundational understanding of creating a simple class in Smalltalk and writing corresponding test cases to ensure its functionality. By exploring these examples, you can deepen your understanding of Smalltalk's object-oriented principles.
